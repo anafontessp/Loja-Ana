@@ -1,6 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
+const ComponentePrincipal = () => {
+  return(
+    <main>
+      Conteúdo principal
+    </main>
+  )
+}
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +26,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <ComponentePrincipal />
     </div>
   );
 }
